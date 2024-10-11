@@ -46414,7 +46414,7 @@ case 2:return A.O(o,r)}})
 return A.Q($async$uo,r)}}
 A.adn.prototype={}
 A.ut.prototype={
-goC(){return"assets/images/profile.jpg"},
+goC(){return"assets/images/Profile.jpg"},
 afZ(a){var s,r={},q=a.a
 if(q==null)q=$.Ui()
 r.a=r.b=null

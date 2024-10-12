@@ -6002,7 +6002,7 @@ aFg(a,b,c){var s,r,q
 if(b===c)return""
 if(!A.asQ(a.charCodeAt(b)))A.tR(a,b,"Scheme not starting with alphabetic character")
 for(s=b,r=!1;s<c;++s){q=a.charCodeAt(s)
-if(!(q<128&&(B.mr[q>>>4]&1<<(q&15))!==0))A.tR(a,s,"Illegal scheme character")
+if(!(q<128&&(B.mq[q>>>4]&1<<(q&15))!==0))A.tR(a,s,"Illegal scheme character")
 if(65<=q&&q<=90)r=!0}a=B.d.U(a,b,c)
 return A.aF9(r?a.toLowerCase():a)},
 aF9(a){if(a==="http")return"http"
@@ -6103,7 +6103,7 @@ return B.b.bz(s,"/")},
 asP(a){var s,r,q=a.length
 if(q>=2&&A.asQ(a.charCodeAt(0)))for(s=1;s<q;++s){r=a.charCodeAt(s)
 if(r===58)return B.d.U(a,0,s)+"%3A"+B.d.cv(a,s+1)
-if(r>127||(B.mr[r>>>4]&1<<(r&15))===0)break}return a},
+if(r>127||(B.mq[r>>>4]&1<<(r&15))===0)break}return a},
 aFc(){return A.b([],t.s)},
 at1(a){var s,r,q,p,o,n=A.w(t.N,t.yp),m=new A.aic(a,B.a2,n)
 for(s=a.length,r=0,q=0,p=-1;r<s;){o=a.charCodeAt(r)
@@ -73642,7 +73642,7 @@ A.aec.prototype={
 $0(){this.a.giG().l0(3,B.b9,B.b0)},
 $S:0}
 A.aea.prototype={
-$2(a,b){var s,r,q=null,p=A.kb(q,q,q,B.aW,q,q,!0,q,B.PK,B.a9,q,q,B.O,B.al),o=this.a,n=o.y,m=o.Q
+$2(a,b){var s,r,q=null,p=A.kb(q,q,q,B.aW,q,q,!0,q,B.PJ,B.a9,q,q,B.O,B.al),o=this.a,n=o.y,m=o.Q
 m=A.fL(A.d5(n==="Read More"?B.d.U(m,0,200)+"...":m,q,B.Ry,B.bg),q,300)
 s=A.Yi(q,q,B.I,q,q,q,10,q,q,B.Oh,B.l,q,q,q,B.I,q,q,q,q,q)
 r=t.F
@@ -73671,7 +73671,7 @@ $0(){this.a.z=!1},
 $S:0}
 A.Fa.prototype={
 M(a){var s=null
-return new A.cO(B.eU,A.eP(A.b([B.h2,A.kb(s,s,s,B.aW,s,s,!0,s,B.PH,B.a9,s,s,B.O,B.al),B.Om,B.Tf,B.bv,B.AT,B.bv,new A.yy("Email: ashikdchrist2004@gmail.com",s),B.bv,B.Te,B.h2,new A.cO(B.eV,A.d5("\xa9 Ashik Christober, 2024. All Rights Reserved.",s,s,B.bg),s)],t.F),B.R,B.ai,B.a3),s)}}
+return new A.cO(B.eU,A.eP(A.b([B.h2,A.kb(s,s,s,B.aW,s,s,!0,s,B.PG,B.a9,s,s,B.O,B.al),B.Om,B.Tf,B.bv,B.AT,B.bv,new A.yy("Email: ashikdchrist2004@gmail.com",s),B.bv,B.Te,B.h2,new A.cO(B.eV,A.d5("\xa9 Ashik Christober, 2024. All Rights Reserved.",s,s,B.bg),s)],t.F),B.R,B.ai,B.a3),s)}}
 A.K9.prototype={
 M(a){var s,r=null,q=A.uy(50),p=A.akO(B.I)
 p=A.alC(!1,q,!0,A.ev(r,A.arC("assets/images/linkedin.svg",B.lR,23),B.t,r,r,new A.cy(r,r,p,r,r,r,B.b8),r,r,r,B.lP,r,r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.a8v(),r,r,r,r)
@@ -73806,7 +73806,7 @@ A.aeH.prototype={
 $0(){this.a.giG().l0(3,B.b9,B.b0)},
 $S:0}
 A.ael.prototype={
-$2(a,b){var s,r,q=null,p=this.a,o=A.fC(A.ev(q,B.l_,B.t,q,q,new A.cy(q,q,q,q,A.b([new A.cG(0,B.bj,B.I,B.f,p.z?80:50)],t.sq),q,B.b8),q,q,q,q,q,q,q),B.ao,q,new A.aei(p,b),new A.aej(p,b),q),n=A.kb(q,q,q,B.aW,q,q,!0,q,B.PJ,B.a9,q,q,B.O,B.al),m=p.y,l=p.Q
+$2(a,b){var s,r,q=null,p=this.a,o=A.fC(A.ev(q,B.l_,B.t,q,q,new A.cy(q,q,q,q,A.b([new A.cG(0,B.bj,B.I,B.f,p.z?80:50)],t.sq),q,B.b8),q,q,q,q,q,q,q),B.ao,q,new A.aei(p,b),new A.aej(p,b),q),n=A.kb(q,q,q,B.aW,q,q,!0,q,B.PI,B.a9,q,q,B.O,B.al),m=p.y,l=p.Q
 l=A.fL(A.d5(m==="Read More"?B.d.U(l,0,200)+"...":l,q,B.xX,B.d5),q,500)
 s=A.Yi(q,q,B.I,q,q,q,10,q,q,q,B.l,q,q,q,B.I,q,q,q,q,q)
 r=t.F
@@ -80114,7 +80114,7 @@ B.Pa=new A.m5(2,"dotted")
 B.Pc=new A.m5(3,"dashed")
 B.Pe=new A.m5(4,"wavy")
 B.H0=A.b(s([B.eg,B.xK,B.Pa,B.Pc,B.Pe]),A.a3("v<m5>"))
-B.mr=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
+B.mq=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.dL=A.b(s([B.cC,B.bB,B.eo,B.ep,B.ht]),t.QP)
 B.Hj=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
 B.FD=new A.jK(B.Hj,"image/png")
@@ -81809,19 +81809,19 @@ B.PB=new A.zy(null,null,null)
 B.PC=new A.zz(B.f,null)
 B.PD=new A.eD(0,0,B.i,!1,0,0)
 B.h6=new A.p(!0,B.I,null,"Poppins",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.PG=new A.eE("Digital Marketing",null,B.ao,B.h6)
-B.mq=A.b(s([B.PG]),t.VO)
+B.PK=new A.eE("Digital Marketer",null,B.ao,B.h6)
+B.mr=A.b(s([B.PK]),t.VO)
 B.R3=new A.p(!0,B.j,null,"Poppins",null,null,20,B.c8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.PF=new A.eE("I'm a ",B.mq,B.ao,B.R3)
+B.PF=new A.eE("I'm a ",B.mr,B.ao,B.R3)
 B.R4=new A.p(!0,B.j,null,"Poppins",null,null,30,B.c8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.PE=new A.eE("I'm a ",B.mq,B.ao,B.R4)
-B.PI=new A.eE("Me",null,B.ao,B.h6)
-B.is=A.b(s([B.PI]),t.VO)
+B.PE=new A.eE("I'm a ",B.mr,B.ao,B.R4)
+B.PH=new A.eE("Me",null,B.ao,B.h6)
+B.is=A.b(s([B.PH]),t.VO)
 B.jQ=new A.p(!0,B.j,null,"Poppins",null,null,50,B.bK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.PH=new A.eE("Contact ",B.is,B.ao,B.jQ)
+B.PG=new A.eE("Contact ",B.is,B.ao,B.jQ)
 B.R5=new A.p(!0,B.j,null,"Poppins",null,null,35,B.bK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.PK=new A.eE("About ",B.is,B.ao,B.R5)
-B.PJ=new A.eE("About ",B.is,B.ao,B.jQ)
+B.PJ=new A.eE("About ",B.is,B.ao,B.R5)
+B.PI=new A.eE("About ",B.is,B.ao,B.jQ)
 B.xR=new A.p(!0,B.l,null,null,null,null,15,B.bK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.xS=new A.p(!1,null,null,null,null,null,14,B.w,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.QL=new A.p(!1,null,null,null,null,null,15,B.w,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
